@@ -1,0 +1,28 @@
+{
+    "name": "talal424/calendars",
+    "type": "library",
+    "description": "PHP 5.5+ Support for various world calendars including Islamic calendar (UmmAlQura)",
+    "keywords": [
+        "php",
+        "calendar",
+        "ummalqura",
+        "islamic",
+        "islam",
+        "hijri"
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Talal Al-Enizi",
+            "email": "talal.alenizi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Talal424\\Calendars\\": "src/"
+        }
+    }
+}
