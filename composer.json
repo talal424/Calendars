@@ -1,6 +1,7 @@
 {
     "name": "talal424/calendars",
     "type": "library",
+    "version": "1.0",
     "description": "PHP 5.5+ Support for various world calendars including Islamic calendar (UmmAlQura)",
     "keywords": [
         "php",
