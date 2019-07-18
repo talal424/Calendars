@@ -110,7 +110,7 @@ abstract class BaseCalendar
 	public function formatYear($year = null)
 	{
 		$date = $this->validate($year, $this->minMonth, $this->minDay, 'invalidYear');
-		return ($date->year() < 0 ? '-' : '') + $this->pad(abs($date->year()),4);
+		return ($date->year() < 0 ? '-' : '') . $this->pad(abs($date->year()),4);
 	}
 
 	/**
@@ -477,7 +477,7 @@ abstract class BaseCalendar
 		};
 		// Format a number, with leading zeroes if necessary
 		$formatNumber = function($match, $value, $len, $step = 1) use ($doubled) {
-			$num = '' + $value;
+			$num = '' . $value;
 			if ($doubled($match, $step)) {
 				while (strlen($num) < $len) {
 					$num = '0' . $num;
